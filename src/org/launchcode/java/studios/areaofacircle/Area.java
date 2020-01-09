@@ -6,7 +6,7 @@ public class Area {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         Double radius;
-
+//Use try catch block in order to throw exception when a non-numerical 
         do {
             System.out.println("Enter a radius:");
             radius = input.nextDouble();
