@@ -12,7 +12,7 @@ public class Program {
         samsung.sendEmail("Hello World!");
         samsung.sendEmail("Goodbye World!");
         System.out.println(samsung.getBattLife());
-        samsung.ring();
+        System.out.println(samsung.ring());
 
     }
 }
